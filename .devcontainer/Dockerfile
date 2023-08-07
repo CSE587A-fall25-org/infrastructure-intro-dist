@@ -24,6 +24,9 @@ RUN DEBIAN_FRONTEND=noninteractive \
         libffi-dev \
         liblzma-dev
 
+# symlink python3 to python
+RUN ln -s /usr/bin/python3 /usr/bin/python
+
 USER $USER
 ARG HOME="/home/$USER"
 
