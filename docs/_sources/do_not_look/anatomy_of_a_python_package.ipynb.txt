@@ -28,11 +28,21 @@
     "- .pytest_cache\n",
     "- .venv\n",
     "- .vscode\n",
+    "- docs\n",
     "- .gitignore: note, it can be sometimes useful to add paths to the .gitignore\n",
     "- make.bat\n",
     "- Makefile\n",
     "- poetry.lock\n",
     "- pyproject.toml\n",
+    "\n",
+    "## docsource\n",
+    "\n",
+    "In `docsource` (not `docs!`), you'll find a file called \n",
+    "`<assignment package name>_assignment.ipynb`, for example \n",
+    "`python_intro_assignment.ipynb`. This is just the assignment prompt notebook, \n",
+    "and might be useful to reference for either instructions or source code.\n",
+    "**IMPORTANT**: you *will not* be turning in code from the assignment notebook. \n",
+    "You're welcome to code in it, of course, but no one will look at it.\n",
     "\n",
     "## Assignment files\n",
     "\n",
@@ -52,6 +62,21 @@
     "- `test_assignment.py` stores the tests which your code should pass. In very \n",
     "limited cases, you will be asked to write or adjust a test.\n",
     "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "vscode": {
+     "languageId": "plaintext"
+    }
+   },
+   "outputs": [],
+   "source": [
+    "import python_intro\n",
+    "\n",
+    "# do something with some function"
    ]
   }
  ],

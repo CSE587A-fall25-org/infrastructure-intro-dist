@@ -4,6 +4,29 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
+    "# Accepting an Assignment\n",
+    "\n",
+    "- In canvas, there will be a link for the assignment. Click it.\n",
+    "\n",
+    "- This will open a new page which will ask you to accept the assignment. Click \n",
+    "accept. You may be asked to find your name in a list at this point.  \n",
+    "\n",
+    "- After accepting, you'll get a dialogue page that says something like, \"we're \n",
+    "preparing your assignment.\" Give that a second or two, and then re-load the \n",
+    "page.\n",
+    "\n",
+    "- One the assignment is created, you will have a new dialogue page from github \n",
+    "which has BOTH link to open the repo, or a link to open vscode.\n",
+    "    - DO NOT click the vscode button (unless you know what you're doing).\n",
+    "\n",
+    "- If you are on the assignment repository page, you can now either launch a \n",
+    "codespace, or pull the repo and work locally"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
     "# Using vscode to write code\n",
     "\n",
     "You can use any editor you wish, but we suggest using vscode. vscode is a \n",

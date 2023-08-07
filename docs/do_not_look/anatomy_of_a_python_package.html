@@ -10,6 +10,7 @@
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=362ab14a" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=eafc0fe6" />
+    <link rel="stylesheet" type="text/css" href="../_static/nbsphinx-code-cells.css" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
     
     
@@ -159,10 +160,10 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../python_intro_assignment.html">The Assignment</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_intro.html">Python</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_intro.html#Functions-and-docstrings">Functions and docstrings</a></li>
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Python Package Structure</a></li>
 <li class="toctree-l1"><a class="reference internal" href="classroom_poetry_docker.html">Setting up your workspace</a></li>
-<li class="toctree-l1"><a class="reference internal" href="vscode_code_editing.html">Using vscode to write code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vscode_code_editing.html">Accepting an Assignment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vscode_code_editing.html#Using-vscode-to-write-code">Using vscode to write code</a></li>
 </ul>
 
 </div>
@@ -210,12 +211,17 @@
 <li><p>.pytest_cache</p></li>
 <li><p>.venv</p></li>
 <li><p>.vscode</p></li>
+<li><p>docs</p></li>
 <li><p>.gitignore: note, it can be sometimes useful to add paths to the .gitignore</p></li>
 <li><p>make.bat</p></li>
 <li><p>Makefile</p></li>
 <li><p>poetry.lock</p></li>
 <li><p>pyproject.toml</p></li>
 </ul>
+</section>
+<section id="docsource">
+<h2>docsource<a class="headerlink" href="#docsource" title="Permalink to this heading">#</a></h2>
+<p>In <code class="docutils literal notranslate"><span class="pre">docsource</span></code> (not <code class="docutils literal notranslate"><span class="pre">docs!</span></code>), you’ll find a file called <code class="docutils literal notranslate"><span class="pre">&lt;assignment</span> <span class="pre">package</span> <span class="pre">name&gt;_assignment.ipynb</span></code>, for example <code class="docutils literal notranslate"><span class="pre">python_intro_assignment.ipynb</span></code>. This is just the assignment prompt notebook, and might be useful to reference for either instructions or source code. <strong>IMPORTANT</strong>: you <em>will not</em> be turning in code from the assignment notebook. You’re welcome to code in it, of course, but no one will look at it.</p>
 </section>
 <section id="Assignment-files">
 <h2>Assignment files<a class="headerlink" href="#Assignment-files" title="Permalink to this heading">#</a></h2>
@@ -230,6 +236,16 @@
 <li><p><code class="docutils literal notranslate"><span class="pre">assignment.py</span></code> will store the source code which is where you will be doing the majority of your work</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">test_assignment.py</span></code> stores the tests which your code should pass. In very limited cases, you will be asked to write or adjust a test.</p></li>
 </ul>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[1]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">python_intro</span>
+
+<span class="c1"># do something with some function</span>
+</pre></div>
+</div>
+</div>
 </section>
 </section>
 
@@ -290,6 +306,7 @@
             <ul>
 <li><a class="reference internal" href="#">Python Package Structure</a><ul>
 <li><a class="reference internal" href="#Stuff-you-can-ignore">Stuff you can ignore</a></li>
+<li><a class="reference internal" href="#docsource">docsource</a></li>
 <li><a class="reference internal" href="#Assignment-files">Assignment files</a></li>
 </ul>
 </li>

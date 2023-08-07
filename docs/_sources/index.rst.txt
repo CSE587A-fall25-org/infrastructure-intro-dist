@@ -11,7 +11,6 @@ Welcome to python_intro's documentation!
    :caption: Contents:
 
    python_intro_assignment
-
    do_not_look/python_intro
    do_not_look/anatomy_of_a_python_package
    do_not_look/classroom_poetry_docker
