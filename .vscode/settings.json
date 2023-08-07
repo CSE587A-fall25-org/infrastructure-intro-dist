@@ -19,7 +19,7 @@
         "79"
     ],
     "python.testing.pytestArgs": [
-        "python_intro"
+        "infrastructure_intro"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
