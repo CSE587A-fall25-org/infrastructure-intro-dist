@@ -22,7 +22,14 @@ RUN DEBIAN_FRONTEND=noninteractive \
         libxml2-dev \
         libxmlsec1-dev \
         libffi-dev \
-        liblzma-dev
+        liblzma-dev \
+        tzdata
+
+# Set the timezone to UTC
+ENV TZ=UTC
+
+# Set the system time in the container
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # symlink python3 to python
 RUN ln -s /usr/bin/python3 /usr/bin/python
