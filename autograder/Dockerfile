@@ -9,6 +9,8 @@ FROM ${BASE_REPO}:${TAG}
 
 ADD autograder/source /autograder/source
 
+ADD infrastructure_intro/test_assignment.py /autograder/source/
+
 RUN cp /autograder/source/run_autograder /autograder/run_autograder
 
 # Ensure that scripts are Unix-friendly and executable
