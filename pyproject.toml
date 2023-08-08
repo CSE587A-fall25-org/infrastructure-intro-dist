@@ -19,7 +19,6 @@ autopep8 = "^2.0.2"
 furo = "^2023.7.26"
 flake8 = "^6.1.0"
 nbconvert = "^7.7.3"
-pytest = "^7.4.0"
 gradescope-utils = "^0.5.0"
 
 [build-system]
