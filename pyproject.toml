@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python-intro"
+name = "infrastructure_intro"
 version = "0.1.0"
 description = "A very brief introduction to python and packaged python code"
 authors = ["chase mateusiak <chase.mateusiak@gmail.com>"]
