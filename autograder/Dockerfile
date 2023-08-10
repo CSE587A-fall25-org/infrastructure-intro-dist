@@ -9,6 +9,9 @@ FROM ${BASE_REPO}:${TAG}
 
 ADD autograder/source /autograder/source
 
+# This is where the results of the tests are stored
+RUN mkdir /autograder/results
+
 ADD infrastructure_intro/test_assignment.py /autograder/source/
 
 RUN cp /autograder/source/run_autograder /autograder/run_autograder
