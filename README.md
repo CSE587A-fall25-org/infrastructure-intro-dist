@@ -1,7 +1,6 @@
 # Introduction
 
-This repository stores BOTH! the documentation that will likely be provided 
-through canvas AND the first "hello world" assignment for using github 
-classrooms.
-
-[Assignment Documentation](https://chase-mateusiak.github.io/infrastructure_intro)
+This is a 'hello world' assignment meant to familiarize you with the package
+structure we will be using for the python assignments. See the
+[assignment notebook](infrastructure_intro/infrastructure_intro_assignment.ipynb)
+for assignment instructions.
